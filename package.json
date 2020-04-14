@@ -35,5 +35,8 @@
   },
   "dependencies": {
     "@edgefront/api": "0.0.11"
+  },
+  "peerDependencies": {
+    "reflect-metadata": "^0.1.13"
   }
 }
