@@ -9,6 +9,7 @@ import {
   util,
 } from '@edgefront/api'
 
+initEnv()
 /* eslint-disable func-names */
 const main = async function (): Promise<void> {
   const app = initKoa()

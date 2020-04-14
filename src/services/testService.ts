@@ -1,4 +1,4 @@
-import { db } from '../db'
+import { db } from '@edgefront/api'
 
 class TestService {
   testMethod(param): string {

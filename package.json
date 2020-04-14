@@ -4,7 +4,7 @@
   "description": "tykoa-backend-demo",
   "main": "./build/src/app.js",
   "scripts": {
-    "n": "nodemon ./src/app.ts",
+    "n": "TS_NODE_PROJECT=\"./tsconfig.json\" nodemon ./src/app.ts",
     "debug": "nodemon --inspect ./src/app.ts",
     "dev": "concurrently nodemon \"open-cli http://localhost:3000/child/test/1\" ",
     "build": "tsc",
@@ -34,6 +34,7 @@
     "typescript": "^3.7.2"
   },
   "dependencies": {
+    "@edgefront/api": "0.0.9",
     "@koa/router": "^8.0.2",
     "dotenv": "^8.2.0",
     "jsonwebtoken": "^8.5.1",

@@ -1,11 +1,12 @@
 /* eslint-disable class-methods-use-this */
 /* eslint-disable import/no-named-default */
 import { Next, default as Koa } from 'koa'
-import { TestService } from '../services'
 import {
+  util,
   decorators,
-} from '../app'
-import { getConfig } from '../util'
+} from '@edgefront/api'
+import { TestService } from '../services'
+
 
 const {
   Controller, Get, Autowired, Post,
@@ -38,7 +39,7 @@ export default class TestController {
     if (username === '1' && password === '1') {
       const token = ctx.jwt.sign(
         { username },
-        getConfig('SECRET'),
+        util.getConfig('SECRET'),
         {
           expiresIn: '24h', // expires in 24 hours
         },
