@@ -1,8 +1,8 @@
 {
   "name": "@edgefront/api",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "tykoa-backend-demo",
-  "main": "./build/src/app.js",
+  "main": "build/app.js",
   "scripts": {
     "n": "nodemon ./src/app.ts",
     "debug": "nodemon --inspect ./src/app.ts",
