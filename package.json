@@ -34,7 +34,7 @@
     "typescript": "^3.7.2"
   },
   "dependencies": {
-    "@edgefront/api": "0.0.9",
+    "@edgefront/api": "0.0.10",
     "@koa/router": "^8.0.2",
     "dotenv": "^8.2.0",
     "jsonwebtoken": "^8.5.1",
