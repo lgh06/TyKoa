@@ -1,6 +1,6 @@
 {
   "name": "@edgefront/api",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "tykoa-backend-demo",
   "main": "build/app.js",
   "scripts": {
