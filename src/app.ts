@@ -1,12 +1,9 @@
 /* eslint-disable import/first */
 import 'reflect-metadata'
 import {
-  decorators,
   initEnv,
   initKoa,
   init,
-  db,
-  util,
 } from '@edgefront/api'
 
 initEnv()
