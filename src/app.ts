@@ -1,8 +1,13 @@
+/* eslint-disable import/first */
 import 'reflect-metadata'
-import './init/initEnv'
+// eslint-disable-next-line import/newline-after-import
+import { initEnv } from './init/initEnv'
+initEnv()
 import { initKoa, init } from './init/index'
 
-import './decorators/index'
+import * as decorators from './decorators/index'
+import * as dbIndex from './db/index'
+import * as util from './util/index'
 
 /* eslint-disable func-names */
 const main = async function (): Promise<void> {
@@ -15,3 +20,13 @@ const main = async function (): Promise<void> {
 }
 
 main()
+
+const { db } = dbIndex
+export {
+  decorators,
+  initEnv,
+  initKoa,
+  init,
+  db,
+  util,
+}

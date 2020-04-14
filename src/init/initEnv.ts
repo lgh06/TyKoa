@@ -43,4 +43,5 @@ function initEnv(): void{
   }
 }
 
-initEnv()
+// initEnv()
+export { initEnv, initEnv as default }

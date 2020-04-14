@@ -3,11 +3,13 @@
 import { Next, default as Koa } from 'koa'
 import { TestService } from '../services'
 import {
-  Controller, Get, Autowired, Post,
-} from '../decorators'
+  decorators,
+} from '../app'
 import { getConfig } from '../util'
 
-
+const {
+  Controller, Get, Autowired, Post,
+} = decorators
 @Controller()
 export default class TestController {
   @Autowired()

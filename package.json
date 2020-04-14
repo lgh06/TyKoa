@@ -2,7 +2,7 @@
   "name": "tykoa",
   "version": "0.0.6",
   "description": "tykoa-backend-demo",
-  "main": "index.js",
+  "main": "./build/src/app.js",
   "scripts": {
     "n": "nodemon ./src/app.ts",
     "debug": "nodemon --inspect ./src/app.ts",
