@@ -10,6 +10,7 @@ import * as dbIndex from './db/index'
 import * as util from './util/index'
 
 /* eslint-disable func-names */
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const main = async function (): Promise<void> {
   const app = initKoa()
 
@@ -19,7 +20,7 @@ const main = async function (): Promise<void> {
   app.listen(3000)
 }
 
-main()
+// main()
 
 const { db } = dbIndex
 export {
