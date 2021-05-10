@@ -40,7 +40,7 @@
     "knex": "^0.20.3",
     "koa": "^2.11.0",
     "koa-bodyparser": "^4.2.1",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "pg": "^7.14.0",
     "postgraphile": "^4.5.0",
     "reflect-metadata": "^0.1.13"
